@@ -1,13 +1,13 @@
 <template>
   <div>
     <Header />
-    <CardContainer />
+    <MainPage />
   </div>
 </template>
 
 <script>
 import Header from './Header.vue'
-import CardContainer from './CardContainer.vue'
+import MainPage from './MainPage.vue'
 
 
 export default {
@@ -15,12 +15,13 @@ export default {
   props: { },
   components: {
     Header,
-    CardContainer
+    MainPage
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss" >
+
 
 </style>

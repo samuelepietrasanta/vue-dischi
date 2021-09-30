@@ -1,5 +1,6 @@
 <template>
-  <header class="mt-5">
+  <header>
+      <img src="../assets/logo.png" alt="logo">
 
   </header>
 </template>
@@ -15,8 +16,12 @@ export default {
 
 
 header{
-    height: 150px;
-    background-color: #1E2D3B;
+    height: 70px;
+    background-color: #2E3A46;
+
+    img{
+        height: 80%;
+    }
 }
 
 </style>
