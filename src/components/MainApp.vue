@@ -11,8 +11,10 @@ import MainPage from './MainPage.vue'
 
 
 export default {
+
   name: 'MainApp',
-  props: { },
+
+  props:{},
   components: {
     Header,
     MainPage

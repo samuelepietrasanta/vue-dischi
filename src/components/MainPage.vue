@@ -10,11 +10,13 @@
 
 <script>
 import CardContainer from './CardContainer.vue'
+
+
 export default {
   name:"MainPage",
   components:{
     CardContainer
-    }
+  }
 
 }
 </script>

@@ -5,7 +5,6 @@
 </template>
 
 <script>
-/* import axios from 'axios' */
 
 import MainApp from './components/MainApp.vue'
 
@@ -15,13 +14,6 @@ export default {
   components: {
     MainApp
   },
-  /* mounted(){
-    axios.get('https://flynn.boolean.careers/exercises/api/array/music')
-    .then(function(response){
-
-    })
-
-  } */
 }
 </script>
 
