@@ -1,22 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1 class="text-success">ciao</h1>
+    <MainApp />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/* import axios from 'axios' */
+
+import MainApp from './components/MainApp.vue'
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
+    MainApp
+  },
+  /* mounted(){
+    axios.get('https://flynn.boolean.careers/exercises/api/array/music')
+    .then(function(response){
+
+    })
+
+  } */
 }
 </script>
 
 <style lang="scss">
+
+@import '~bootstrap/scss/bootstrap';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
